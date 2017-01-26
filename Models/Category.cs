@@ -6,6 +6,8 @@ using System.Web;
 
 namespace Medhat1124.Models.NorthWind  // change namespace to be the same as the class model
 {
+
+    //specifying the type of the class that stores the validation attributes you want to apply to your main class members
     [MetadataType(typeof(CategoryMetaData))] // get definition of the type class
     public partial class Category { }
 
